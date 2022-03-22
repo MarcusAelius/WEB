@@ -1,0 +1,193 @@
+body {
+    padding: 1px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    background-image: url(/olymp.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px auto;
+    float:right;
+}
+#options button {
+    width: 200px;
+    height: 50px;
+    margin: 5px;
+    font-size: 20px;
+    color: #000000;
+    border: solid 2px;
+    border-color: rgb(27, 27, 27);
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+#options button:disabled, #options button:hover {
+    background-color: #78A83B;
+    color: rgb(255, 221, 240);
+    border-color: rgb(15, 15, 15);
+}
+#showing {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.leftCont {
+    background-color: rgb(203, 234, 236);
+    display: flex;
+    flex-direction: column;
+}
+label {
+    color: #000000;
+    font-size: medium;
+    font-weight: bold;
+    line-height: 20px;
+}
+input {
+    border-radius: 10px;
+    padding: 5px;
+    border: solid 1px;
+    border-color: rgb(68, 65, 65);
+    margin: 10px auto;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 5px;
+    font-size: 17px;
+}
+.col {
+    padding: 5px;
+    border: 1px solid black;
+    flex: 1 0 auto;
+    margin-right: -1px;
+}
+.hidden {
+    display: none;
+}
+.modal {
+    border: solid 1px;
+    border-radius: 10px;
+    background: rgb(122,186,86);
+    background: linear-gradient(90deg, rgba(122,186,86,1) 0%, rgba(68,125,67,1) 100%);
+}
+.modal input {
+    display: flex;
+    flex-direction: column;
+}
+.modal .submitButton {
+    background-color: #78A83B;
+    padding: 5px;
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+.modal .exitButton {
+    background-color: #aa6163;
+    padding: 5px;
+    font-size: 15px;
+}
+.izmeni{
+    background-color: #42A5F5;
+    font-size: 15px;
+}
+.obrisi{
+    background-color: #aa6163;
+    font-size: 15px;
+}
+.dodajButton{
+    margin-top: 10px;
+    background-color: #78A83B;
+    padding: 4px;
+    font-size: 15px;
+}
+
+.dodajUTakmicenjeRow {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dropDownConainer > select, .dodajUTakmicenjeRow > button{
+    margin: 5px;
+    font-size: large;
+}
+
+.dropDownConainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.infoTakmicenje{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    border: solid 2px #000000;
+    margin-right: -2px;
+}
+
+.dugmiciTakmicenje {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 5px;
+    border: solid 2px #000000;
+    margin-right: -2px;
+}
+
+.infoSport{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    border: solid 2px #000000;
+    margin-right: -2px;
+}
+
+.dugmiciSport {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 5px;
+    border: solid 2px #000000;
+    margin-right: -2px;
+}
+
+.infoTakmicar{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    border: solid 2px #000000;
+    margin-right: -2px;
+}
+
+.dugmiciTakmicar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 5px;
+    border: solid 2px #000000;
+}
+
+
+
+
+.col.izmeniBtn {
+    background-color: #42A5F5;
+    padding: 5px;
+    font-size: 15px;
+}
+.col.obrisiBtn{
+    background-color: #aa6163;
+    font-size: 15px;
+    padding: 5px;
+}
+.dodajUTakmicenje{
+    font-size: medium;
+    background-color: #78A83B;
+}
